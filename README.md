@@ -19,14 +19,14 @@
 
 1. Click the "Add Matrix" button on the side of your choice.
 2. Insert the number of rows and columns for the desired matrix and press "Add".
-   > [!WARNING]
-   > The numbers inserted MUST be whole numbers!
+> [!WARNING]
+> The numbers inserted MUST be whole numbers!
 3. Insert the desired numbers for each entry of the matrix and press "Input".
-   > [!TIP]
-   > MatrixCalculator uses double values for matrix values, so the entered values can be extremely precise!
+> [!TIP]
+> MatrixCalculator uses double values for matrix values, so the entered values can be extremely precise!
 4. Repeat Steps 1-3 for the other side of the calculator if you wish to perform matrix operations on two matrices.
-   > [!IMPORTANT]
-   > You are ready to perform matrix manipulation on the matrix you just inserted! Simply press the button with a desired operation and you will get a pop-up window with a result!
+> [!IMPORTANT]
+> You are ready to perform matrix manipulation on the matrix you just inserted! Simply press the button with a desired operation and you will get a pop-up window with a result!
 5. Once the second matrix is inserted, a middle section will appear, showing matrix manipulation buttons. Click the button with a desired operation.
-   > [!CAUTION]
-   > While the application is designed to not crash, DO NOT PRESS THE MIDDLE SECTION BUTTONS BEFORE FINISHING ENTERING THE SECOND MATRIX! It can lead to unexpected results.
+> [!CAUTION]
+> While the application is designed to not crash, DO NOT PRESS THE MIDDLE SECTION BUTTONS BEFORE FINISHING ENTERING THE SECOND MATRIX! It can lead to unexpected results.
