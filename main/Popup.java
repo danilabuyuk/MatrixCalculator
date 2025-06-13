@@ -42,29 +42,29 @@ public class Popup extends Frame {
 
     public void addMatrix (ActionEvent e)
     {
-        if (menu.input[0] == null)
+        if (menu.panel[0] == null)
         {
             frame.setVisible(false);
-            menu.input[0] = new Matrix(Integer.parseInt(dimensions[0].getText()), Integer.parseInt(dimensions[1].getText()), menu);
+            menu.panel[0] = new Matrix(Integer.parseInt(dimensions[0].getText()), Integer.parseInt(dimensions[1].getText()), menu).panel;
         }
         else
         {
             frame.setVisible(false);
-            menu.input[1]  = new Matrix(Integer.parseInt(dimensions[0].getText()), Integer.parseInt(dimensions[1].getText()), menu);
+            menu.panel[1]  = new Matrix(Integer.parseInt(dimensions[0].getText()), Integer.parseInt(dimensions[1].getText()), menu).panel;
         }
     }
 
     public void addVector (ActionEvent e)
     {
-        if (menu.input[0] == null)
+        if (menu.panel[0] == null)
         {
             frame.setVisible(false);
-            menu.input[0] = new Vector(Integer.parseInt(dimensions[0].getText()));
+            menu.panel[0] = new Vector(Integer.parseInt(dimensions[0].getText()), menu).panel;
         }
         else
         {
             frame.setVisible(false);
-            menu.input[1] = new Vector(Integer.parseInt(dimensions[0].getText()));
+            menu.panel[1] = new Vector(Integer.parseInt(dimensions[0].getText()), menu).panel;
         }
     }
 }
